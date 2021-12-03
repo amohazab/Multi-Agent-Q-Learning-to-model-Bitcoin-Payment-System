@@ -1,4 +1,4 @@
-We haven't finished writing the paper yet so I can not upload it now, but in short:
+You can find the full version of the paper in https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3974688
 
 eps_greed_github.py: It is a python file that include the main logic. We tried to model the Bitocin Payment System with the multi-uint dynamic auction framework. Since we wanted to solve the problem without any restricting assumption, we used the multi-agent Q-learning algorithm. In this case, all of the agents, bidders and miner(assumption of monopoly), are AI agent. The miner sets the number of items to sell and the bidders bid for the available slots. In this q-learning algorithm, states are the information from the previous state, actions are bidding for the users and choosing the number of transaction to send for the miner. Finally, rewards are the difference between the marginal valuation and bid values for the users and the sum of tramsaction fees for the miner.
 
